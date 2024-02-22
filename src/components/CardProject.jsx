@@ -6,7 +6,7 @@ const CardProject = () => {
     return (
         <div className="flex mt-6 group shadow-lg py-6 px-6 cursor-pointer hover:bg-slate-500/20 hover:transition duration-200 rounded-md">
 
-            <img src={portfolioImage} className=" mr-4 w-28 h-20 rounded border border-slate-200/10 " />
+            <img src={portfolioImage} className=" group-hover:border-slate-200/40 group-hover:shadow-xl mr-4 w-28 h-20 rounded border-2 border-slate-200/10 " />
 
             <div className="">
 

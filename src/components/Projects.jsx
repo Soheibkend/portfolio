@@ -4,6 +4,9 @@ const Projects = () => {
     return (
         <section>
             <CardProject />
+            <CardProject />
+            <CardProject />
+            <CardProject />
         </section>
     )
 }
