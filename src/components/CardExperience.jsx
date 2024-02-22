@@ -11,13 +11,10 @@ const CardExperience = () => {
                     2018 - PRESENT
                 </div>
 
-                <ul className="list text-sm leading-normal block">
-                    <li className="list_style">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quia nesciunt rem dolorem, minima ducimus architecto ratione amet suscipit placeat beatae atque corporis dicta ipsum blanditiis aut nisi non maiores.
-                    </li>
-
+                <ul className="flex  text-sm leading-normal">
+                    <span className=" mr-2 text-[#64ffda]">▹</span>
                     <li className="">
-
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quia nesciunt rem dolorem, minima ducimus architecto ratione amet suscipit placeat beatae atque corporis dicta ipsum blanditiis aut nisi non maiores.
                     </li>
                 </ul>
                 <ul className="group/list mt-2 flex flex-wrap">

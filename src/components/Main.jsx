@@ -8,8 +8,7 @@ const Main = () => {
 
     return (
         <div className=" w-full h-screen px-24 py-24 text-slate-400">
-            <About />
-            <Experience />
+            <Projects />
         </div>
     )
 }

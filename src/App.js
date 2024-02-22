@@ -36,9 +36,9 @@ function App() {
      
 
       <div className="w-1/2 h-full flex justify-center items-center ">
-        {/* Content of the scrollable part */}
         <Main />
       </div>
+      
     </div>
    
   );
