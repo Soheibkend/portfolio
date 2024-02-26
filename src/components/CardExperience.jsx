@@ -1,7 +1,7 @@
 
 const CardExperience = () => {
     return (
-        <div className="mt-6 hover:drop-shadow-xl hover:transition duration-200 group shadow-lg py-6 px-6 cursor-pointer flex gap-3 flex-col hover:bg-slate-500/20 rounded-md">
+        <div className="sm:mt-6 hover:drop-shadow-xl hover:transition duration-200 group py-6 px-6 cursor-pointer flex gap-3 flex-col hover:bg-slate-500/20 rounded-md">
 
                 <h3 className=" group-hover:text-[#64ffda] group-hover:transition dura font-medium leading-tight text-slate-200 ">
                     Software Engeniier <span className="group-hover:text-[#64ffda] font-bold text-slate-200 roboto">  @ ELIT</span>

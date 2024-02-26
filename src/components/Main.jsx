@@ -1,5 +1,4 @@
 import About from "./About";
-import ContactMe from "./ContactMe";
 import Experience from "./Experience";
 import Projects from "./Projects";
 
@@ -7,7 +6,9 @@ import Projects from "./Projects";
 const Main = () => {
 
     return (
-        <div className=" w-full h-screen px-24 py-24 text-slate-400">
+        <div className="w-screen h-screen sm:px-24 sm:py-24 text-slate-400">
+            <About />
+            <Experience />
             <Projects />
         </div>
     )

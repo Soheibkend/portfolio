@@ -28,14 +28,14 @@ import React, { useState } from 'react';
 function App() {
   return (
   
-    <div className="flex justify-between w-screen h-screen overflow-y-auto selection:bg-[#64ffda] selection:text-teal-900 bg-slate-900">
+    <div className="sm:flex sm:justify-between w-screen h-screen overflow-y-auto overflow-x-hidden selection:bg-[#64ffda] selection:text-teal-900 bg-slate-900">
 
-      <div className="w-1/2 h-full">
+      <div className="sm:w-1/2 sm:h-full sm:overflow-hidden">
           <Header />
       </div>
      
 
-      <div className="w-1/2 h-full flex justify-center items-center ">
+      <div className="sm:w-1/2 sm:h-full sm:flex sm:justify-center sm:items-center sm:overflow-auto">
         <Main />
       </div>
       
