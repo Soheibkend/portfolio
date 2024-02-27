@@ -4,7 +4,7 @@ import LinkIcon from './LinkIcon';
 
 const CardProject = () => {
     return (
-        <div className="flex mt-6 group py-3 px-2 hover:bg-slate-500/20 hover:transition duration-200 rounded-md">
+        <div className="flex mt-6 group py-3 px-2 lg:py-4 lg:px-4 hover:bg-slate-500/10 hover:transition duration-200 rounded-md">
 
             <img src={portfolioImage} className="hidden md:block group-hover:border-slate-200/40 group-hover:shadow-xl md:mr-4 mr-2 md:w-28 md:h-20 w-24 h-16 rounded border-2 border-slate-200/10 " />
 

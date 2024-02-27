@@ -22,8 +22,8 @@ import React, { useState } from 'react';
     <div id="blob"/>
   );
 };
-
 */
+
 
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
       </div>
      
 
-      <div className="lg:w-1/2 lg:h-full lg:flex lg:justify-center lg:items-center lg:overflow-auto">
+      <div className="lg:w-1/2 lg:h-full lg:flex  lg:overflow-auto">
         <Main />
       </div>
       
