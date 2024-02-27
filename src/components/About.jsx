@@ -2,12 +2,12 @@
 const About = () => {
     return (
 
-        <>
-            <div className="w-full sticky top-0 bg-slate-900/70 backdrop-blur-md px-6 py-5 sm:hidden">
+        <div className=" mt-14">
+            <div className="w-full sticky top-0 bg-slate-900/70 backdrop-blur-sm py-5 lg:hidden">
                 <h3 className="text-slate-200 font-semibold text-sm uppercase tracking-widest">About</h3>
             </div>
 
-            <section className=" px-3 mb-10 sm:mb-28" id="about">
+            <section className=" mb-10 lg:mb-28" id="about">
            
                 <p className=" mb-6 tracking-wide">
                     Hey there, I'm Kendjouh Soheib, a junior software engineer and full-stack developer passionate
@@ -27,7 +27,7 @@ const About = () => {
                     Here are a few technologies I've been working with recently:
                 </p>
 
-                <ul className="mb-6 grid grid-cols-2 gap-2 gap-x-6 sm:w-1/2">
+                <ul className="mb-6 grid grid-cols-2 gap-2 gap-x-6 lg:w-1/2">
                     <li className=""><span className="text-[#64ffda]">▹</span> Java</li>
                     <li><span className="text-[#64ffda]">▹</span> Spring Boot</li>
                     <li><span className="text-[#64ffda]">▹</span> JavaScript</li>
@@ -43,7 +43,7 @@ const About = () => {
                     <span className=" font-semibold">Send me a message</span>       
                 </a>
             </section>
-        </>
+        </div>
     )
 }
 

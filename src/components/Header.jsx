@@ -4,7 +4,7 @@ import SocialMedia from "./SocialMedia";
 
 const Header = () => {
     return (
-        <header className="sm:flex sm:flex-col sm:justify-between flex flex-col gap-5 justify-between  px-5 pt-11 sm:pl-48 sm:py-24 text-slate-400 w-full h-full">
+        <header className="lg:flex lg:flex-col lg:justify-between lg:pl-48 lg:py-24 flex flex-col gap-5 justify-between px-5 pt-11 text-slate-400 w-full h-full">
             <Hero />
             <Navigation />
             <SocialMedia />

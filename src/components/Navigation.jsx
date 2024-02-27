@@ -2,7 +2,7 @@
 const Navigation = () => {
     return (
         <nav>
-            <ul className="sm:flex sm:flex-col sm:justify-between hidden">
+            <ul className="lg:flex lg:flex-col lg:justify-between hidden">
 
                 <li className="">
                     <a className="group flex items-center w-fit" href="#about">
