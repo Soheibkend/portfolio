@@ -1,5 +1,5 @@
 import CardExperience from "./CardExperience";
-
+import {experiences} from '../experiences.js';
 
 const Experience = () => {
     return (
@@ -11,9 +11,15 @@ const Experience = () => {
             </div>
 
             <section id = "experience">
-                <CardExperience />
-                <CardExperience />
-                <CardExperience />
+                {
+                    experiences.map ((experience) => (
+                        <CardExperience position={experience.position}
+                                        time={experience.time}
+                                        skills={experience.skills}
+                                        descriptions={experience.description}
+                        />
+                    ))
+                }
             </section>
 
             <a href="https://drive.google.com/file/d/1LOyZuUD7uHdTCp8NLcifnpDgatU3VR58/view?usp=sharing" target="_blank" rel="noreferrer" className="group text-slate-200 font-semibold tracking-wide duration-200 hover:text-[#64ffda]">

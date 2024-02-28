@@ -1,4 +1,3 @@
-import portfolioImage from '../images/portfolio.png';
 import GithubIcon from './GithubIcon';
 import LinkIcon from './LinkIcon';
 

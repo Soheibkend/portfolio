@@ -76,7 +76,7 @@ export const projects =
         id:"8",
         name:"Contact List App",
         description: "tic-tac-toe game with beautiful UI.",
-        skills : ["Java","Spring Boot","Postgresql","Thymleaf","Bootstrap"],
+        skills : ["Java","Spring Boot","Thymleaf","Postgresql","Bootstrap"],
         link:"https://soheibkend.github.io/tic-tac-toe/",
         github:"https://github.com/Soheibkend/tic-tac-toe",
         image: ""
