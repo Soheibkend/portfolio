@@ -72,7 +72,7 @@ export const projects =
         github:"https://github.com/Soheibkend/tic-tac-toe",
         image: imgTicTacTao
     },
-    {
+    /*{
         id:"8",
         name:"Contact List App",
         description: "tic-tac-toe game with beautiful UI.",
@@ -80,7 +80,7 @@ export const projects =
         link:"https://soheibkend.github.io/tic-tac-toe/",
         github:"https://github.com/Soheibkend/tic-tac-toe",
         image: ""
-    },
+    },*/
     /*{
         id:"9",
         name:"Quizz App",
