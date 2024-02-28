@@ -21,11 +21,12 @@ import React, { useState } from 'react';
   return (
     <div id="blob"/>
   );
-};
-*/
+};*/
+
 
 
 function App() {
+  
   return (
   
     <div className="lg:flex lg:justify-between w-screen h-screen overflow-y-auto overflow-x-hidden selection:bg-[#64ffda] selection:text-teal-900 bg-slate-900">
