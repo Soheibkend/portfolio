@@ -38,7 +38,7 @@ export const projects =
     },
     {
         id:"2",
-        name:"IP Adress Tracker",
+        name:"IP Address Tracker",
         description: "Website that allows you to geolocate any IP addresse.",
         skills : ["JavaScript","React","React-Leaflet","IP-geolocation-api","Tailwindcss"],
         link:"https://soheibkend.github.io/IP-Address-Tracker/",

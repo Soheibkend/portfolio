@@ -2,7 +2,7 @@
 const About = () => {
     return (
 
-        <div className="" id="about">
+        <div className=" pt-12" id="about">
             <div className="w-full sticky top-0 bg-slate-900/70 backdrop-blur-sm py-5 lg:hidden">
                 <h3 className="text-slate-200 font-semibold text-sm uppercase tracking-widest">About</h3>
             </div>
