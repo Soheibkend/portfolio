@@ -11,11 +11,11 @@ export const projects =
 [
     {
         id:"6",
-        name:"Personnel Portfolio",
-        description: "Personnel Portfolio built using react and tailwind-css.",
+        name:"Personal Portfolio",
+        description: "Personal Portfolio built using react and tailwind-css, deployed on GitHub pages.",
         skills : ["JavaScript","React","Tailwindcss"],
         link:"",
-        github:"https://github.com/Soheibkend/portfolio_v2",
+        github:"https://soheibkend.github.io/portfolio/",
         image: imgPortfolio
     },
     {

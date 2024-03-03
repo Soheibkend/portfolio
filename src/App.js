@@ -23,24 +23,25 @@ import React, { useState } from 'react';
   );
 };*/
 
-
-
 function App() {
   
   return (
+
+      <div  className="lg:flex lg:justify-between w-screen h-screen overflow-y-auto overflow-x-hidden selection:bg-[#64ffda] selection:text-teal-900 bg-slate-900">
+
+<div className="lg:w-1/2 lg:h-full lg:overflow-hidden">
+    <Header />
+</div>
+
+
+<div className="lg:w-1/2 lg:h-full lg:flex scroll-smooth lg:overflow-auto">
+  <Main />
+</div>
+
+</div> 
+    
   
-    <div className="lg:flex lg:justify-between w-screen h-screen overflow-y-auto overflow-x-hidden selection:bg-[#64ffda] selection:text-teal-900 bg-slate-900">
-
-      <div className="lg:w-1/2 lg:h-full lg:overflow-hidden">
-          <Header />
-      </div>
-     
-
-      <div className="lg:w-1/2 lg:h-full lg:flex scroll-smooth lg:overflow-auto">
-        <Main />
-      </div>
-      
-    </div>    
+       
   );
 }
 
